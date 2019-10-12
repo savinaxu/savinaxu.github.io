@@ -1,0 +1,540 @@
+<!-- 
+                                                      @@@@@@@@@                                                                                                
+                                                 @@@@@@@@@@@@@@                @@@@@                                                                           
+                                             @@@@@@@@@@@@@@@                   @@@@@                                                                           
+                                           @@@@@@@@@@                          @@@@@                                                                           
+                                         @@@@@@@@                   @@@@@@@@@@@     @@@                                                                        
+                                       @@@@@@@@                     @@@@@@@@@@@                                                                                
+                                     @@@@@@@@                       @@@@@@@@@@@                                                                                
+                                    @@@@@@@                         @@@@@@@@@@@                                                                                
+                                   @@@@@@                           @@@@@@@@@@@                                                                                
+                                  @@@@@@                                                                                                                       
+                                 @@@@@@                                                   @@@                                                                  
+                                @@@@@@@                                                 @@@@@@                                                                 
+                                @@@@@@                                                  @@@@@@                                                                 
+                                @@@@@@                                                   @@@@@@                                                                
+ @@   @@@@ @@@@@@@@ @@@@@@@@@  @@@@@@                                                    @@@@@@    @@@@@@@   @@@@@@@@ @@@@@@@@@ @@@    @@@   @@@@@@@  @@@@@@@@ 
+ @@  @@@   @@@         @@@     @@@@@@                                                    @@@@@@  @@@@        @@@         @@@    @@@    @@@   @@       @@@   @@@
+ @@@@@@    @@@@@@@@    @@@     @@@@@@                                                    @@@@@@ @@@          @@@@@@@     @@@    @@@@@@@@@@   @@@@@@@  @@@  @@@@
+ @@@@@@    @@@@@@@@    @@@      @@@@@@                                                   @@@@@@ @@@   @@@@@  @@@@@@@     @@@    @@@@@@@@@@   @@@@@@@  @@@@@@@@ 
+ @@  @@@@  @@@         @@@      @@@@@@                                                  @@@@@@   @@@    @@@  @@@         @@@    @@@    @@@   @@       @@@  @@@@
+ @@   @@@@ @@@@@@@@    @@@      @@@@@@@                                                 @@@@@@    @@@@@@@@@  @@@@@@@@    @@@    @@@    @@@   @@@@@@@  @@@   @@@
+                                 @@@@@@                                                @@@@@@                                                                  
+                                  @@@@@@                                              @@@@@@@                                                                  
+                                   @@@@@@                                            @@@@@@@                                                                   
+                                    @@@@@@@                                         @@@@@@@                                                                    
+                                     @@@@@@@                                      @@@@@@@                                                                      
+                                       @@@@@@@                                  @@@@@@@@                                                                       
+                                        @@@@@@@@@                             @@@@@@@@                                                                         
+                                          @@@@@@@@@@                       @@@@@@@@@                                                                           
+                                             @@@@@@@@@@@@            @@@@@@@@@@@@@                                                                             
+                                                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                                                                
+                                                    @@@@@@@@@@@@@@@@@@@@@@                                                                                     
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ketogether</title>
+
+    <!-- favicon -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+        href="../assets/img/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="../assets/img/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="../assets/img/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="../assets/img/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60"
+        href="../assets/img/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="../assets/img/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"
+        href="../assets/img/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+        href="../assets/img/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="../assets/img/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../assets/img/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../assets/img/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="../assets/img/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="savina-portfolio" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="../assets/img/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="../assets/img/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="../assets/img/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="../assets/img/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="../assets/img/favicomatic/mstile-310x310.png" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/slippry.css">
+    <link rel="stylesheet" href="../assets/css/projects.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="../assets/js/slippry.min.js"></script>
+    <script src="../assets/js/projects.js"></script>
+</head>
+
+<body id="ketogether">
+    <header>
+        <div class="head-wrapper flex-parent">
+
+            <div class="flex-child">
+                <a href="../index.html"><img src="../assets/img/sLogo.svg" class="logo-change"></a>
+            </div>
+            <div class="flex-none">
+                <nav>
+                    <ul id="menu">
+                        <li id="link_home"><a href="../index.html">Home</a></li>
+                        <li id="link_projects">
+                            <a href="../index.html#projects"></a>Projects</a>
+                            <ul class="dropdown">
+                                <li><a href="./ketogether.html" class="sm">Ketogether</a></li>
+                                <li><a href="./aplus.html" class="sm">a+ Online Education</a></li>
+                                <li><a href="./redesignot.html" class="sm">OpenTable Redesign</a></li>
+                                <li><a href="./onlineshopping.html" class="sm">Online Shopping Store</a></li>
+                                <li><a href="./gif.html" class="sm">GIF Library APP</a></li>
+                                <li><a href="./travelmate.html" class="sm">Travel Mate</a></li>
+                            </ul>
+                        </li>
+                        <li id="link_contact">
+                            <a href="../index.html#contact">
+                                Contact
+                                <img src="../assets/img/talk.svg" alt="contact">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="project-snapshot">
+    </section>
+
+    <section id="project-content">
+        <div id="meta">
+            <div>
+                <h2 class="eyebrow">PROJECT NAME</h2>
+                <span>KETOGETHER</span>
+            </div>
+            <div>
+                <h2 class="eyebrow">DATE</h2>
+                <span>Fall 2018</span>
+            </div>
+            <div>
+                <h2 class="eyebrow">CATEGORY</h2>
+                <span>UX/UI Design</span>
+            </div>
+            <div>
+                <h2 class="eyebrow">DOMAIN</h2>
+                <ul>
+                    <li>Health</li>
+                    <li>Diet</li>
+                    <li>Keto</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main-content">
+            <span class="eyebrow">PROMO VIDEO</span>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D45r8ag2SRU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <span class="eyebrow">INTRODUCTION</span>
+            <div class="intro dev">
+                <h1>Keto Diet</h1>
+                <p>The keto diet is also known as ketogenic diet, it is a high-fat, adequate-protein, low-carbohydrate
+                    diet that in medicine which is used primarily to treat difficult-to-control (refractory) epilepsy in
+                    children. The recent study also shows that it can also help with the Type II Diabetes. During the
+                    study, there are more amazing results come with this particular diet. The diet forces the body to
+                    burn fats rather than carbohydrates. </p>
+                <h2>Benefits</h1>
+                    <img src="../assets/img/ketogether/benifits.png" alt="Benefits">
+                    <h1 class="next">Problem</h1>
+                    <p>Recent years have seen the ketogenic diet increase rapidly in popularity, due in large part to
+                        its efficacy in supporting weight loss. However, I believe there remains a gap among current
+                        ketogenic diet experts, ketogenic diet beginners and potential users. </p>
+                    <h1 class="next">Challenge</h1>
+                    <p>As proponents of the health benefits of the diet and producers of ultra-low carbohydrate foods, I
+                        seek to better understand and address the current barriers to adoption and long-term diet
+                        adherence.</p>
+            </div>
+
+            <span class="eyebrow">RESEARCH</span>
+            <div class="research dev">
+                <h1>Survey</h1>
+                <img src="../assets/img/ketogether/survey.png" alt="survey">
+                <h2>Findings</h2>
+                <ol>
+                    <li>Most people doing keto diet are less than 3 months, which indicates that most of the ketoers
+                        have difficulties to keep keto diet or form a long-term diet habits.</li>
+                    <li>People who doing keto diet are mainly ageing from 31 and above, which means people who have
+                        started working are more likely to concern their health problems.</li>
+                    <li>Ketoers more care about how to make keto diet easier, for example, keto grocery shopping,
+                        tracking intakes, and keto diet recipes. Besides, a rewards system will be a bonus.</li>
+                </ol>
+                <h1 class="next">Interview Insights</h1>
+                <ul>
+                    <li>
+                        <h6>Keto diet meal takes more time to prepare.</h6>
+                        <p>During the interview, a lot of the users are complaining about the time they spend on
+                            preparation of the keto diet meal. It usually takes twice or three times more time to do the
+                            meal. And the grocery shopping also takes more time to see the nutrition facts.</p>
+                    </li>
+                    <li>
+                        <h6>Keto diet doesn’t fit everyone.</h6>
+                        <p>Execution of a ketone diet should be done with a complete physical record in order to know if
+                            it is appropriate. Without these preparations, you can’t tell is this diet suit for you or
+                            not. So before you decide to go on this diet, contact your doctor first to see weather you
+                            are suitable for this diet or not. Don’t follow the trending blindly.</p>
+                    </li>
+                    <li>
+                        <h6>Not much keto friendly places to go.</h6>
+                        <p>Traditional nutrition is vegetable based with grain products, but less meat and fat. If you
+                            go to the grocery store, there are tones of items out there are fat free or less fat
+                            products. However, have you seen anything that is HIGH FAT? No! There are a lot of
+                            vegetarian restaurant, but have you seen any Keto friendly restaurant? No!</p>
+                    </li>
+                    <li>
+                        <h6>Tracking what you eat, how many you eat. </h6>
+                        <p>Doing keto diet you have to super care about what you eat, and how many you eat and how much
+                            nutrition you eat. Before that you have to set up your personal goal to reach everyday.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="eyebrow">DIVERGING</span>
+            <div class="diverging dev">
+                <h1>Solutions</h1>
+                <img src="../assets/img/ketogether/solution.png" alt="solution">
+                <h1 class="next">Inspirations</h1>
+                <img class="mt" src="../assets/img/ketogether/inspiration.png" alt="Inspirations">
+                <h1 class="next">Competitor</h1>
+                <ul>
+                    <li>
+                        <h6>PERFECT KETO</h6>
+                        <img src="../assets/img/ketogether/pk.png" alt="">
+                    </li>
+                    <li>
+                        <h6>ruled.me</h6>
+                        <img src="../assets/img/ketogether/rule.png" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <span class="eyebrow">AUDIENCE</span>
+            <div class="audience dev">
+                <h1>Target Audience</h1>
+                <img src="../assets/img/ketogether/audiencu.png" alt="target audience">
+                <h1 class="next">Persona</h1>
+                <ul>
+                    <li>
+                        <h6>John Hodges (keto level: Beginner, less than half year)</h6>
+                        <img src="../assets/img/ketogether/persona1.png" alt="">
+                    </li>
+                    <li>
+                        <h6>Tara Marinko (keto level: Expert, more than 3 years)</h6>
+                        <img src="../assets/img/ketogether/persona2.png" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <span class="eyebrow">PROCESS</span>
+            <div class="process dev">
+                <h1>Ideation</h1>
+                <img src="../assets/img/ketogether/ideation.png" alt="ideation">
+                <h1 class="next">IA Map</h1>
+                <img src="../assets/img/ketogether/ia.png" alt="IA map">
+                <h1 class="next">Iteration</h1>
+                <img src="../assets/img/ketogether/iterative.png" alt="Iteration">
+                <h1 class="next">Conclusions</h1>
+                <p>Based on the survey with the beginners of the keto diet, what might make them want to give up the
+                    diet is that:</p>
+                <ul>
+                    <li>1. Needs guide to see the long-term outcomes.</li>
+                    <li class="ib">2. Time consuming on keto diet preparation and want variety of meals to try.<i
+                            class="fas fa-check"></i></li>
+                    <li class="ib">3. Less motivation to keep on the keto diet. <i class="fas fa-check"></i></li>
+                </ul>
+                <h1 class="next">Wireframe1.0</h1>
+                <img src="../assets/img/ketogether/wireframe1.png" alt="Wireframe1">
+                <h1 class="next">Testing1</h1>
+                <img src="../assets/img/ketogether/test1.png" alt="Testing1">
+                <h1 class="next">Wireframe2.0</h1>
+                <img src="../assets/img/ketogether/wireframe2.png" alt="Wireframe2">
+                <h1 class="next">Testing2</h1>
+                <img src="../assets/img/ketogether/test2.png" alt="Testing2">
+            </div>
+
+            <span class="eyebrow">PROOF OF CONCEPT</span>
+            <div class="poc dev">
+                <h1>User Task 1</h1>
+                <p class="mt">Buy all the ingredients from the recipes with one click buy all function.</p>
+                <div class="task-flow mt">
+                    <div class="kp">Home</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Recipes</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Recommend</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Video</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">One-Click Buy</div>
+                </div>
+                <ul id="task1">
+                    <li>
+                        <a href="#slide1">
+                            <img src="../assets/img/ketogether/us1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide2">
+                            <img src="../assets/img/ketogether/t1.1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide3">
+                            <img src="../assets/img/ketogether/t1.2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide4">
+                            <img src="../assets/img/ketogether/t1.3.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide5">
+                            <img src="../assets/img/ketogether/t1.4.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide6">
+                            <img src="../assets/img/ketogether/t1.5.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide7">
+                            <img src="../assets/img/ketogether/t1.6.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide8">
+                            <img src="../assets/img/ketogether/t1.7.png">
+                        </a>
+                    </li>
+                </ul>
+
+                <h1 class="mt">User Task 2</h1>
+                <p class="mt">Track your food intake and monitor your progress, add your meal and gain the points.</p>
+                <div class="task-flow mt">
+                    <div class="kp">Home</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">User</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Reward</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Food Tracking</div>
+                </div>
+
+                <ul id="task2">
+                    <li>
+                        <a href="#slide1">
+                            <img src="../assets/img/ketogether/us1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide2">
+                            <img src="../assets/img/ketogether/t2.1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide3">
+                            <img src="../assets/img/ketogether/t2.2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide4">
+                            <img src="../assets/img/ketogether/t2.3.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide5">
+                            <img src="../assets/img/ketogether/t2.4.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide6">
+                            <img src="../assets/img/ketogether/t2.5.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide7">
+                            <img src="../assets/img/ketogether/t2.6.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide8">
+                            <img src="../assets/img/ketogether/t2.7.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide9">
+                            <img src="../assets/img/ketogether/t2.8.png">
+                        </a>
+                    </li>
+                </ul>
+
+                <h1 class="mt">User Task 3</h1>
+                <p class="mt">Keto grocery shopping with Shop AR technology to quickly see the keto friendly food.</p>
+                <div class="task-flow mt">
+                    <div class="kp">Home</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">ShopAR</div><i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="kp">Camera</div>
+                </div>
+
+                <ul id="task3">
+                    <li>
+                        <a href="#slide1">
+                            <img src="../assets/img/ketogether/us2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide2">
+                            <img src="../assets/img/ketogether/t3.1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide3">
+                            <img src="../assets/img/ketogether/t3.2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide4">
+                            <img src="../assets/img/ketogether/t3.3.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide5">
+                            <img src="../assets/img/ketogether/t3.4.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide6">
+                            <img src="../assets/img/ketogether/t3.5.png">
+                        </a>
+                    </li>
+                    <li>
+                </ul>
+
+                <button class="sec brand">Try Prototype</button>
+                <a href="https://invis.io/Y2PI5LT4EBQ"></a>
+            </div>
+
+            <span class="eyebrow">BRANDING</span>
+            <div class="branding dev">
+                <h1>Logo Ideation</h1>
+                <img class="mt" src="../assets/img/ketogether/logoidea.png" alt="">
+                <h1 class="next">Color</h1>
+                <img class="mt" src="../assets/img/ketogether/color.png" alt="">
+                <h1 class="next">Typography</h1>
+                <img class="mt" src="../assets/img/ketogether/font.png" alt="">
+                <h1 class="next">Iconography</h1>
+                <img class="mt" src="../assets/img/ketogether/icon.png" alt="">
+
+                <button class="sec brand">View Full Brand Style Guide</button>
+                <a href="https://www.flipsnack.com/savinajia/ketogether_branding_guide.html"></a>
+            </div>
+
+            <span class="eyebrow">REFERENCE</span>
+            <div class="reference dev">
+                <h1>Reference</h1>
+                <ol>
+                    <li>Holt, SH, et al. (1997) An insulin index of foods: the insulin demand generated by 1000-kJ
+                        portions of common foods. The American Journal of Clinical Nutrition, 66(5), 1264-76.</li>
+                    <li>Pediatrics. 2007 Mar;119(3):535-43. The ketogenic diet: one decade later. Freeman JM1, Kossoff
+                        EH, Hartman AL.</li>
+                    <li>Thom, G. & Lean, M. (2017) Is There an Optimal Diet for Weight Management and Metabolic Health?
+                        Gastroenterology, 152(7), 1739-1751.</li>
+                    <li>Neal, E.G., et al. (2008) The ketogenic diet for the treatment of childhood epilepsy: a
+                        randomized controlled trial. The Lancet Neurology, 7(6), 500-506.</li>
+                    <li>Westman, E.C, et al. (2008) The effect of a low-carbohydrate, ketogenic diet versus a
+                        low-glycemic index diet on glycemic control in type 2 diabetes mellitus. Nutrition & Metabolism,
+                        5(36).</li>
+                    <li>Bueno NB, et al. (2013) Very-low-carbohydrate ketogenic diet v. low-fat diet for long-term
+                        weight loss: a meta-analysis of randomized controlled trials. British Journal of Nutrition,
+                        110(7): 1178-87.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <div id="stop" class="scrollTop">
+        <span><a href=""><i class="fas fa-arrow-up"></i></a></span>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="../assets/img/sLogo.png" alt="logo">
+                </div>
+
+                <div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=1243005372"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Savina12965934"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/savina-xu-2951bb137"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/savinaxu"><i class="fab fa-github-alt"></i></a>
+                        <a href="https://www.instagram.com/supa.savina/?hl=en"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <P>Savina Xu
+                            <i class="fas fa-at"></i> <a href="mailto:supasavina@gmail.com">savinajia@gmail.com</a></P>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer-right">
+                <p>
+                    Copyright © 2019.Savina Xu All rights reserved.
+                </p>
+                <p>
+                    Made with <i class="footer-red fas fa-heart"></i> in Shanghai / San Francisco
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<!-- 
+      .**********,                     *****             ****,                  ,****     ****    ******                  ****               *****             
+    *****************                   *****             ****                  ****      ****      *****,                ****                *****            
+  ******        ******                  ******             ****                ****       ****        *****               ****                ******           
+ *****             **                  ********            *****              *****       ****        *******             ****               ********          
+ *****                                **********            *****            *****        ****        *********           ****              *********,         
+ ******                              *****  *****            *****          *****         ****        **** *****          ****             *****  ****.        
+  *****************                 *****    ****,            ****         ,****          ****        ****  ******        ****            *****    ****        
+     *****************             *****      ****,            ****        ****           ****        ****    *****,      ****           *****      ****       
+                  *****           *****        ****             ****      ****            ****        ****      *****     ****          *****        ****      
+                   ,****         *****          ****            ,****    *****            ****        ****       ******   ****         *****          ****     
+                    ****        *****  **************            *****  *****             ****        ****         ****** ****        ***** .**************    
+ ****             .****        ***********************            ****.*****              ****        ****           *********       ***********************   
+ *******,      *******        *********            ****            ********               ****        ****            ********      ********             ****  
+   *****************         *****                  ****            ******                ****        ****              ******     *****                 ***** 
+        ********                                                                                                                                               
+
+ -->

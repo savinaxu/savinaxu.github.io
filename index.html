@@ -1,47 +1,663 @@
+<!-- 
+
+          _____                    _____                    _____            _____                   _______                   _____                    _____          
+         /\    \                  /\    \                  /\    \          /\    \                 /::\    \                 /\    \                  /\    \         
+        /::\____\                /::\    \                /::\____\        /::\    \               /::::\    \               /::\____\                /::\    \        
+       /:::/    /               /::::\    \              /:::/    /       /::::\    \             /::::::\    \             /::::|   |               /::::\    \       
+      /:::/   _/___            /::::::\    \            /:::/    /       /::::::\    \           /::::::::\    \           /:::::|   |              /::::::\    \      
+     /:::/   /\    \          /:::/\:::\    \          /:::/    /       /:::/\:::\    \         /:::/~~\:::\    \         /::::::|   |             /:::/\:::\    \     
+    /:::/   /::\____\        /:::/__\:::\    \        /:::/    /       /:::/  \:::\    \       /:::/    \:::\    \       /:::/|::|   |            /:::/__\:::\    \    
+   /:::/   /:::/    /       /::::\   \:::\    \      /:::/    /       /:::/    \:::\    \     /:::/    / \:::\    \     /:::/ |::|   |           /::::\   \:::\    \   
+  /:::/   /:::/   _/___    /::::::\   \:::\    \    /:::/    /       /:::/    / \:::\    \   /:::/____/   \:::\____\   /:::/  |::|___|______    /::::::\   \:::\    \  
+ /:::/___/:::/   /\    \  /:::/\:::\   \:::\    \  /:::/    /       /:::/    /   \:::\    \ |:::|    |     |:::|    | /:::/   |::::::::\    \  /:::/\:::\   \:::\    \ 
+|:::|   /:::/   /::\____\/:::/__\:::\   \:::\____\/:::/____/       /:::/____/     \:::\____\|:::|____|     |:::|    |/:::/    |:::::::::\____\/:::/__\:::\   \:::\____\
+|:::|__/:::/   /:::/    /\:::\   \:::\   \::/    /\:::\    \       \:::\    \      \::/    / \:::\    \   /:::/    / \::/    / ~~~~~/:::/    /\:::\   \:::\   \::/    /
+ \:::\/:::/   /:::/    /  \:::\   \:::\   \/____/  \:::\    \       \:::\    \      \/____/   \:::\    \ /:::/    /   \/____/      /:::/    /  \:::\   \:::\   \/____/ 
+  \::::::/   /:::/    /    \:::\   \:::\    \       \:::\    \       \:::\    \                \:::\    /:::/    /                /:::/    /    \:::\   \:::\    \     
+   \::::/___/:::/    /      \:::\   \:::\____\       \:::\    \       \:::\    \                \:::\__/:::/    /                /:::/    /      \:::\   \:::\____\    
+    \:::\__/:::/    /        \:::\   \::/    /        \:::\    \       \:::\    \                \::::::::/    /                /:::/    /        \:::\   \::/    /    
+     \::::::::/    /          \:::\   \/____/          \:::\    \       \:::\    \                \::::::/    /                /:::/    /          \:::\   \/____/     
+      \::::::/    /            \:::\    \               \:::\    \       \:::\    \                \::::/    /                /:::/    /            \:::\    \         
+       \::::/    /              \:::\____\               \:::\____\       \:::\____\                \::/____/                /:::/    /              \:::\____\        
+        \::/____/                \::/    /                \::/    /        \::/    /                 ~~                      \::/    /                \::/    /        
+         ~~                       \/____/                  \/____/          \/____/                                           \/____/                  \/____/         
+                                                                                                                                                                       
+
+
+        Savina Xu's portfolio website! 
+        Feel free to connect, reach out for a conversation over coffee (or e-coffee).
+        Enjoy!
+ -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Savina's bolg</title>
-  <meta name="description" content="This is Savina's homepage, Love u">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=" Savina Xu is an enthusiastic software engineer with 3+ years of programming experience and a wide range of project experience,
+    including web application development and user experience design. Seeking for a full-time software engineer position.
+    Quickly learn and master new technologies. Successful working in both team and self-directed settings. Effective at
+    combining creativity and problem solving to develop user-friendly application.">
+    <title>Savina Xu | Software Engineer | Front End Developer | Full Stack Developer | UX/UI Designer </title>
+
+    <!-- favicon -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="assets/img/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="assets/img/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/img/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="assets/img/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/img/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+        href="assets/img/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/img/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/img/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/img/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/img/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/img/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="savina-portfolio" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="assets/img/favicomatic/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="assets/img/favicomatic/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="assets/img/favicomatic/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/img/favicomatic/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="assets/img/favicomatic/mstile-310x310.png" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/revealer.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/reveal.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/griddemo.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </head>
 
 <body>
+    <!-- header -->
+    <header class="nav-down">
+        <div id="header">
+            <div id="logo">
+                <a href="/"></a>
+                <img src="assets/img/sLogo.png" alt="logo">
+            </div>
+            <nav id="menu">
+                <div class="nav-open-close">
+                    <img class="nav-open-img" src="assets/img/nav-open.svg" alt="menu">
+                    <img class="nav-close-img" src="assets/img/nav-close.svg" alt="menu">
+                </div>
+            </nav>
+            <div id="nav" class="nav-overlay">
+                <ul class="nav-overlay-container">
+                    <li id="link_home"><a href="#header">Home</a></li>
+                    <li id="link_projects"> <a href="#projects">Projects</a></li>
+                    <li><a href="./projects/ketogether.html" class="sm">Ketogether</a></li>
+                    <li><a href="./projects/aplus.html" class="sm">a+ Online Education</a></li>
+                    <li><a href="./projects/redesignot.html" class="sm">OpenTable Redesign</a></li>
+                    <li><a href="./projects/onlineshopping.html" class="sm">Savina's Online Shopping Store</a></li>
+                    <li><a href="./projects/gif.html" class="sm">GIF Library APP</a></li>
+                    <li><a href="./projects/travelmate.html" class="sm">Travel Mate</a></li>
+                    <li id="link_contact"><a class="last" href="#contact">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/savina-xu-2951bb137/" class="sm">LinkedIn</a></li>
+                    <li><a href="https://github.com/savinaxu" class="sm">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=1243005372" class="sm">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/supa.savina/" class="sm">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
-<!- - this is a homepage title - ->
-<br />
-  <h1>🎉🎉🎉Welcome to Savina's World🎉🎉🎉</h1>
-  <nav>
-    <h3><a href="./index.html">🏠Home</a>
-      <a href="./about.html" target="_blank">😊Know More</a>
-      <a href="./work.html" target="_blank">📂My Works</a>
-      <a href="./VIPs.html" target="_blank">🐶VIPs</a>
-      <a href="./contact.html" target="_blank">☎️Contact</a>
-    </h3>
-  </nav>
-<br />
-<!- - this is homepage photo - ->
-  <a href="#introduction"><img src="/p1.jpg" width="400"></a>
+    <div class="content-container">
+        <!-- main -->
+        <section id="main">
+            <div id="intro">
+                <div class="intro-left">
+                    <h1 class="rev-1">Designing</h1>
+                    <h1 class="rev-2">Solutions,</h1>
+                    <h1 class="rev-3">Delivering</h1>
+                    <h1 class="rev-4">Improvements.</h1>
+                    <div class="introduction fadeInDown">
+                        <p>
+                            Hi, my name is <span>Savina Xu</span>.
+                            I'm an enthusiastic software engineer based in San Francisco, CA.
+                            Dedicating to combining the beauty of design with the logical perfection of coding.
+                        </p>
+                    </div>
+                </div>
+                <div class="intro-right" data-aos="zoom-in-up" data-aos-duration="2000">
+                    <a class="box__item">
+                        <div class="box">
+                            <div class="box__shadow"></div>
+                            <img class="box__img" src="assets/img/photo.JPG" alt="Savina photo" />
+                            <h3 class="box__title">
+                                <span class="box__title-inner" data-hover="Savina">Savina</span>
+                            </h3>
+                            <h4 class="box__text">
+                                <span class="box__text-inner">WELCOME</span>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-<!- - this is p1 link to about me - ->
-  <div id="introduction">
-    <h2>٩(๑>◡<๑)۶  About Me</h2>
-    <p>I'm <strong>Savina Xu</strong>, a 🇨🇳girl from a bustling metropolis-- Shanghai.<br />
-       I majored in 🏥Clinical Medicine, and I used to be a 👨‍⚕️‍Cardiologist and performed nearly 3,000 💉interventional operations.<br />
-       Now, I'm just ready to take my next challenge as a web designer.🤞🤞🤞<br />
-    </p>
+            <!-- about -->
+            <section id="about">
+                <div class="skills">
+                    <div class="skill">
+                        <img src="assets/img/sitiosweb.svg" alt="Development">
+                        <h3>Development</h3>
+                        <p>
+                            Front-end & Back-end <br>
+                            Full Stack <br>
+                            Pixel-perfect <br>
+                            Clean Code <br>
+                            User-friendly
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/img/design.svg" alt="design">
+                        <h3>Design</h3>
+                        <p>
+                            UI/UX Design <br>
+                            Brand Identity System <br>
+                            2D Avatar Design <br>
+                            Animation <br>
+                            Photography
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/img/social.svg" alt="social">
+                        <h3>Media</h3>
+                        <p>
+                            Marketing <br>
+                            Events & Exhibition <br>
+                            Advertisement <br>
+                            New Media <br>
+                        </p>
+                    </div>
+                </div>
 
-    <h3>Introduction</h3>
-    <ol>
-      <li>My name: Savina Xu ( 徐申佳 ) </li>
-      <li>Major Status: Web Design & New Media MA Graduate Student </li>
-      <li>Where I am from: Shanghai China</li>
-      <li>Know more about me please <a href="./about.html" target="_blank">click here</a></li>
-    </ol>
-  </div>
-  <img src="http://www2.tchcvs.tc.edu.tw/unit/unit-6/sun%20%E7%B6%B2%E9%A0%81/%E7%B4%A0%E6%9D%90/line%20tree.gif" width="500">
-  <img src="http://www2.tchcvs.tc.edu.tw/unit/unit-6/sun%20%E7%B6%B2%E9%A0%81/%E7%B4%A0%E6%9D%90/line%20tree.gif" width="500">
+                <div class="me">
+                    <h3>More About Me</h3>
+                    <p>
+                        Hello! I'm Savina, an enthusiastic software engineer based in San Francisco, CA
+                        who dedicating to combining the beauty of design with the logical perfection of coding.
+                        I enjoy solving complex problems, taking difficult challenges and turning them into simple,
+                        intuitive and user-friendly design.
+                        Training myself every day and pushing my own limits to discover and try with more new or modern
+                        technologies.
+                    </p>
+
+                    <a class="resume" href="./savina-resume.pdf">
+                        <div class="btn">
+                            VIEW RESUME
+                        </div>
+                    </a>
+                </div>
+
+                <div class="poster">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+
+                <div class="back"></div>
+            </section>
+
+            <div id="down">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="textDown">Scroll down</span>
+            </div>
+        </section>
+
+        <!-- project -->
+        <section id="projects">
+            <div id="ux" class="section browser hero scrolly">
+                <div class="s-container" data-aos="fade-up" data-aos-mirror="true" data-aos-easing="ease-in-out">
+                    <div class=" row-split lg roles">
+                        <div class="left ux-intro col-split roles padding">
+                            <div class=" left-container">
+                                <h2>
+                                    UX/UI Design<br>
+                                    Projects<br>
+                                </h2>
+                                <p>Creating meaningful experiences through problem-solving for users.
+                                    Focusing on trying to make an impact in the lives of others through design.</p>
+                                <p>
+                                    My UX/UI Case Study
+                                    <span class="desktop">👉</span>
+                                    <span class="tablet">👇</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right p-intro col-split roles padding vertical last" data-aos="fade-up"
+                            data-aos-easing="ease" data-aos-duration="800" data-aos-mirror="true">
+                            <a class="card cta ux ketogether step" href="./projects/ketogether.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh">Ketogether</h3>
+                                        <p class="clp">A platform for ketogenic diet users to share, to explore and to
+                                            stick to
+                                            the diet!</p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag">
+                                            <p>Research</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Analysis</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Wireframe</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>IA Map</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Prototype</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Testing</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>POC</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Branding</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>User-frendly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/ketogether/keto-2.png" alt="keto1">
+                                    <img class="card_link_img_2-2" src="assets/img/ketogether/keto-1.png" alt="keto2"
+                                        data-aso=offset="300" data-aos="move-image" data-aos-easing="ease-in-out-cubic"
+                                        data-aos-mirror="true" data-aos-duration="1000">
+                                </div>
+                            </a>
+                            <a class="card cta ux aplus step" href="./projects/aplus.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh">a+ Online Education</h3>
+                                        <p class="clp">A+ online education mainly focuses on the teenages. Help them get
+                                            back on
+                                            track and prepare for college and
+                                            life after graduation.</p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag">
+                                            <p>Research</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Wireframe</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>IA Map</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Prototype</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Testing</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Branding</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>User-frendly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/aplus/aplus-1.png" alt="aplus1">
+                                    <img class="card_link_img_2-2" src="assets/img/aplus/aplus-2.png" alt="aplus2"
+                                        data-aso=offset="300" data-aos="move-image" data-aos-easing="ease-in-out-cubic"
+                                        data-aos-mirror="true" data-aos-duration="1000">
+                                </div>
+                            </a>
+                            <a class="card cta ux redesignot step" href="./projects/redesignot.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh">Redesign OpenTable</h3>
+                                        <p class="clp">Redesign project, introducing AI chatbot, Friends, and Chat
+                                            features to
+                                            make connection easier and closer!</p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag">
+                                            <p>Research</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Redesign</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Prototype</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>New Features</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Promo Video</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/opentable/ot-2.png" alt="opentable1">
+                                    <img class="card_link_img_2-2" src="assets/img/opentable/ot-1.png" alt="opentable1"
+                                        data-aso=offset="300" data-aos="move-image" data-aos-easing="ease-in-out-cubic"
+                                        data-aos-mirror="true" data-aos-duration="1000">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="develop" class="section browser hero scrolly ">
+                <div class="s-container">
+                    <div class=" row-split lg roles">
+                        <div class="left dev-intro col-split roles padding">
+                            <div class=" left-container">
+                                <h2>
+                                    Full-stack<br>
+                                    Development<br>
+                                </h2>
+                                <p>Combine the beauty of design with the logical perfection of coding. Training myself
+                                    every day
+                                    and pushing my own limits to discover new ways of creating a great experience for
+                                    the users.
+                                </p>
+                                <p>
+                                    You may find each project's code on my <a class="github"
+                                        href="https://github.com/savinaxu">github</a>.
+                                    <span class="desktop">👉</span>
+                                    <span class="tablet">👇</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right p-intro col-split roles padding vertical last">
+                            <a class="card cta onlineshopping step" href="./projects/onlineshopping.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh red">Savina's Online Shopping Store</h3>
+                                        <p class="clp red">Items that can’t be traded are only those you can't think of!
+                                        </p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag red">
+                                            <p>Full-stack</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>php</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>Wireframe</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>Js</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>Css</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>MySQL</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>Responsive</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>API</p>
+                                        </div>
+                                        <div class="tag red">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/onlineshopping/os-2.png"
+                                        alt="onlineshopping">
+                                    <img class="card_link_img_2-2" src="assets/img/onlineshopping/os-1.png"
+                                        alt="onlineshopping" data-aso=offset="300" data-aos="move-image"
+                                        data-aos-easing="ease-in-out-cubic" data-aos-mirror="true"
+                                        data-aos-duration="1000">
+                                </div>
+                            </a>
+                            <a class="card cta gif step" href="./projects/gif.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh">GIF Library App</h3>
+                                        <p class="clp">Your prefect GIF Library App! With GIF Library app, you can save
+                                            all
+                                            liked gif and get it anytime! </p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag">
+                                            <p>Mobile Web App</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>jQuery mobile</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Wireframe</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>CSS</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Authentication</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>LocalStorage</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>API</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Testing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/gif/gif-2.png" alt="gif">
+                                    <img class="card_link_img_2-2" src="assets/img/gif/gif-1.png" alt="gif"
+                                        data-aso=offset="300" data-aos="move-image" data-aos-easing="ease-in-out-cubic"
+                                        data-aos-mirror="true" data-aos-duration="1000">
+                                </div>
+                            </a>
+                            <a class="card cta travelmate step" href="./projects/travelmate.html">
+                                <div class="card-up">
+                                    <div class="card-link-heading">
+                                        <h3 class="clh">Travel Mate</h3>
+                                        <p class="clp">With Travel Mate, leave the annoying travel problems away, just
+                                            enjoy
+                                            your journey. </p>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="tag">
+                                            <p>Frontend Web Application</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Responsive</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>API</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Wireframe</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Js</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Css</p>
+                                        </div>
+                                        <div class="tag">
+                                            <p>Branding</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_link_img">
+                                    <img class="card_link_img_2-1" src="assets/img/travelmate/travelmate-1.png"
+                                        alt="travelmate">
+                                    <img class="card_link_img_2-2" src="assets/img/travelmate/travelmate-2.png"
+                                        alt="onlineshopping" data-aso=offset="300" data-aos="move-image"
+                                        data-aos-easing="ease-in-out-cubic" data-aos-mirror="true"
+                                        data-aos-duration="1000">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="contact-text">
+                <div class="small-container">
+                    <h2>Let's Build Something Together!</h2>
+                    <br>
+                    <p>Feel free to connect, reach out for a conversation over coffee (or e-coffee).</p>
+                    <br>
+                    <p>GET IN TOUCH</p>
+                    <a href="mailto:supasavina@gmail.com">
+                        <p>savinajia@gmail.com</p>
+                    </a>
+                    <p>650-346-7922</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=1243005372"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Savina12965934"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/savina-xu-2951bb137"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/savinaxu"><i class="fab fa-github-alt"></i></a>
+                        <a href="https://www.instagram.com/supa.savina/?hl=en"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <section class="animations">
+                    <div class="animations-container">
+                        <div class="ani ani-1">
+                            <div class="ani-cube">
+                                <div class="cube-face face_front"></div>
+                                <div class="cube-face face_right"></div>
+                                <div class="cube-face face_left"></div>
+                                <div class="cube-face face_top"></div>
+                                <div class="cube-face face_bottom"></div>
+                                <div class="cube-face face_back"></div>
+                            </div>
+                        </div>
+                        <div class="ani ani-3">
+                            <div class="ani-cube ani-cube-3">
+                                <div class="cube-face face_front"></div>
+                                <div class="cube-face face_right"></div>
+                                <div class="cube-face face_left"></div>
+                                <div class="cube-face face_top"></div>
+                                <div class="cube-face face_bottom"></div>
+                                <div class="cube-face face_back"></div>
+                            </div>
+                        </div>
+                        <div class="ani ani-5">
+                            <div class="moving-square-frame"></div>
+                            <div class="ani-moving-square"></div>
+                        </div>
+                        <div class="ani ani-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 1024 1024">
+                                <path id="followPath"
+                                    d="M394.1-214.9c-49.7,89.4,114.4,192.8,175.5,475.1c13,60.1,85.4,424-98.1,552.6 c-95.7,67-267.2,74.5-346.3-22.1c-70.8-86.5-49-233.9,19.2-305.2c102.4-107,353.9-89.1,593.2,96.5c139.6,107,294.1,258.4,415,468.6 c19.2,33.5,36.6,66.6,52.3,99.3c13,8.6,34,19.5,53.3,13.2c148-48.6,165.1-1094.5-338.5-1374.8C723.7-320.8,449-313.8,394.1-214.9z">
+                                </path>
+                                <path id="dashedPath"
+                                    d="M394.1-214.9c-49.7,89.4,114.4,192.8,175.5,475.1c13,60.1,85.4,424-98.1,552.6 c-95.7,67-267.2,74.5-346.3-22.1c-70.8-86.5-49-233.9,19.2-305.2c102.4-107,353.9-89.1,593.2,96.5c139.6,107,294.1,258.4,415,468.6 c19.2,33.5,36.6,66.6,52.3,99.3c13,8.6,34,19.5,53.3,13.2c148-48.6,165.1-1094.5-338.5-1374.8C723.7-320.8,449-313.8,394.1-214.9z">
+                                </path>
+                                <path id="airplain" d="M8.04 84L92 48 8.04 12 8 40l60 8-60 8z">
+                                    <animateMotion xlink:href="#airplain" dur="6s" fill="freeze"
+                                        repeatCount="indefinite" rotate="auto">
+                                        <mpath xlink:href="#followPath"></mpath>
+                                    </animateMotion>
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+
+                </section>
+
+
+            </div>
+        </section>
+        <div class="clearfix"></div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/img/sLogo.png" alt="logo">
+                </div>
+
+                <div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=1243005372"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Savina12965934"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/savina-xu-2951bb137"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/savinaxu"><i class="fab fa-github-alt"></i></a>
+                        <a href="https://www.instagram.com/supa.savina/?hl=en"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <P>Savina Xu
+                            <i class="fas fa-at"></i> <a href="mailto:supasavina@gmail.com">savinajia@gmail.com</a></P>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer-right">
+                <p>
+                    Copyright © 2019.Savina Xu All rights reserved.
+                </p>
+                <p>
+                    Made with <i class="footer-red fas fa-heart"></i> in Shanghai / San Francisco
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.min.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

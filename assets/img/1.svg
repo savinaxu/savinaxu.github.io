@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="1024"></rect>
+        <filter x="-0.7%" y="-0.5%" width="101.4%" height="101.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="80" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <rect stroke="#434E6F" stroke-width="80" stroke-linejoin="square" x="40" y="40" width="944" height="944"></rect>
+        </g>
+        <path d="M785,639.056051 C785,766.890446 662.375,847 501.429688,847 C404.351562,847 303.867188,799.275159 240,716.608917 L306.421875,654.396178 C339.632812,694.450955 401.796875,754.107006 501.429688,754.107006 C595.101562,754.107006 689.625,718.313376 689.625,639.056051 C689.625,541.901911 593.398438,541.901911 501.429688,541.901911 C349.851562,541.901911 267.25,485.654777 267.25,377.421656 C267.25,274.301911 365.179688,178 501.429688,178 C597.65625,178 681.109375,205.271338 756.898438,278.563057 L698.992188,346.741401 C630.867188,291.346497 582.328125,271.745223 501.429688,271.745223 C429.898438,271.745223 370.289062,321.174522 370.289062,376.569427 C370.289062,414.919745 397.539062,449.861146 505.6875,449.861146 C727.945312,449.861146 785,518.89172 785,639.056051 Z" id="SAVINA" fill="#434E6F"></path>
+        <path d="M689.54087,639.261539 C689.54087,542.064098 593.048696,542.064098 500.826087,542.064098 C348.829565,542.064098 266,485.791896 266,377.510536 C266,274.344832 364.2,178 500.826087,178 C597.318261,178 681.001739,205.283492 757,278.607877 L698.933913,346.816608 C630.62087,291.397014 581.947826,271.787004 500.826087,271.787004 C429.097391,271.787004 369.323478,321.238334 369.323478,376.657927 C369.323478,415.025338 396.648696,449.982312 505.095652,449.982312 C727.966957,449.982312 689.54087,718.554188 689.54087,639.261539 Z" id="Path" fill="#E50E47"></path>
+    </g>
+</svg>

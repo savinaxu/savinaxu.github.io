@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="54px" viewBox="0 0 61 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>sitiosweb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="sitiosweb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(5.000000, 5.000000)">
+            <g id="Group">
+                <g>
+                    <path d="M6.2,42.5 C3.6,42.5 1.5,40.4 1.5,37.8 L1.5,6.2 C1.5,3.6 3.6,1.5 6.2,1.5 L43.8,1.5 C46.4,1.5 48.5,3.6 48.5,6.2 L48.5,37.8 C48.5,40.4 46.4,42.5 43.8,42.5 L6.2,42.5 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M43.8,3 C45.6,3 47,4.4 47,6.2 L47,37.8 C47,39.6 45.6,41 43.8,41 L6.2,41 C4.4,41 3,39.6 3,37.8 L3,6.2 C3,4.4 4.4,3 6.2,3 L43.8,3 Z M43.8,0 L6.2,0 C2.8,0 0,2.8 0,6.2 L0,37.8 C0,41.2 2.8,44 6.2,44 L43.8,44 C47.2,44 50,41.2 50,37.8 L50,6.2 C50,2.8 47.2,0 43.8,0 Z" id="Shape" fill="#434E6F" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle" fill="#434E6F" x="1.9" y="11.5" width="45.5" height="3"></rect>
+                <polyline id="Path" stroke="#434E6F" stroke-width="3" points="13.1 21.8 19 27.7 13.1 33.6"></polyline>
+                <rect id="Rectangle" fill="#434E6F" x="27.1" y="26.2" width="10.9" height="3"></rect>
+                <rect id="Rectangle" fill="#434E6F" x="25.3" y="26.2" width="14.5" height="3"></rect>
+            </g>
+            <circle id="Oval" fill="#434E6F" cx="8.8" cy="7.4" r="1.5"></circle>
+            <circle id="Oval" fill="#434E6F" cx="13.2" cy="7.4" r="1.5"></circle>
+            <circle id="Oval" fill="#434E6F" cx="17.7" cy="7.4" r="1.5"></circle>
+        </g>
+    </g>
+</svg>
